@@ -1,36 +1,83 @@
 import React, { useState } from 'react'
 import "./header.css"
 import logo from "../../assets/logo.png"
+import { NavLink } from 'react-router-dom'
 
 function Header() {
 
     const [showNav, setShowNav] = useState(false)
+    const [showList, setShowList] = useState(false)
 
     function handleClick() {
         setShowNav(!showNav)
     }
+
     return (
         <>
             <div className="nav">
-                <a href="#" className="logo">
+                <NavLink to="/AU/" className="logo">
                     <img src={logo} alt="" />
-                </a>
+                </NavLink>
                 <div className="menu-container">
                     <div className="menu-button" onClick={handleClick}>
-                        {showNav ? (<span><i class="fa-solid fa-xmark"></i></span>)
-                            : (<span><i class="fa-solid fa-bars"></i></span>)}
+                        {showNav ? (<span><i className="fa-solid fa-xmark"></i></span>)
+                            : (<span><i className="fa-solid fa-bars"></i></span>)}
 
                     </div>
                     <div className={showNav ? "nav-content show" : "nav-content"}>
                         <div className="flex">
                             <div className='nav-container closed'>
+                                <div className="nav-container-inner" id='first'>
+                                    <div className="menu-name">
+                                        <NavLink to="/who-we-are" onClick={handleClick}>who we are</NavLink>
+                                    </div>
+                                    <div className="icon" id='iconOne'>
+                                        <span>
+                                            <i className="fa-solid fa-chevron-right"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <ul className="list"></ul>
+                            </div>
+                            <div className='nav-container closed'>
+                                <div className="nav-container-inner" id='sec'>
+                                    <div className="menu-name">
+                                        <NavLink to="/what-we-do" onClick={handleClick}>what we do</NavLink>
+                                    </div>
+                                    <div className="icon">
+                                        {showList ? (<span><i className="fa-solid fa-angle-down"></i></span>) :
+                                            (<span><i className="fa-solid fa-chevron-right"></i>
+                                            </span>)}
+                                    </div>
+                                </div>
+                                <ul className="list"></ul>
+                            </div>
+                            <div className='nav-container closed'>
+                                <div className="nav-container-inner" id='third'>
+                                    <div className="menu-name">
+                                        <NavLink to="/issues" onClick={handleClick}>issues</NavLink>
+                                    </div>
+                                    <div className="icon">
+                                        {showList ? (<span><i className="fa-solid fa-angle-down"></i></span>) :
+                                            (<span><i className="fa-solid fa-chevron-right"></i>
+                                            </span>)}
+                                    </div>
+                                </div>
+                                <ul className={showList ? "list show" : "list"}>
+                                    <li><a href="#">Meat</a></li>
+                                    <li><a href="#">Dairy</a></li>
+                                    <li><a href="#">Eggs</a></li>
+                                    <li><a href="#">Fish</a></li>
+                                </ul>
+                            </div>
+                            <div className='nav-container closed'>
                                 <div className="nav-container-inner">
                                     <div className="menu-name">
-                                        <a href="#">who we are</a>
+                                        <NavLink to="/get-involved" onClick={handleClick}>get involved</NavLink>
                                     </div>
                                     <div className="icon">
                                         <span>
-                                            <i class="fa-solid fa-chevron-right"></i>
+                                            <i className="fa-solid fa-chevron-right"></i>
                                         </span>
                                     </div>
                                 </div>
@@ -39,50 +86,11 @@ function Header() {
                             <div className='nav-container closed'>
                                 <div className="nav-container-inner">
                                     <div className="menu-name">
-                                        <a href="#">what we do</a>
+                                        <NavLink to="/resources" onClick={handleClick}>resources</NavLink>
                                     </div>
                                     <div className="icon">
                                         <span>
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                                <ul className="list"></ul>
-                            </div>
-                            <div className='nav-container closed'>
-                                <div className="nav-container-inner">
-                                    <div className="menu-name">
-                                        <a href="#">issues</a>
-                                    </div>
-                                    <div className="icon">
-                                        <span>
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                                <ul className="list"></ul>
-                            </div>
-                            <div className='nav-container closed'>
-                                <div className="nav-container-inner">
-                                    <div className="menu-name">
-                                        <a href="#">get involved</a>
-                                    </div>
-                                    <div className="icon">
-                                        <span>
-                                            <i class="fa-solid fa-chevron-right"></i>
-                                        </span>
-                                    </div>
-                                </div>
-                                <ul className="list"></ul>
-                            </div>
-                            <div className='nav-container closed'>
-                                <div className="nav-container-inner">
-                                    <div className="menu-name">
-                                        <a href="#">resources</a>
-                                    </div>
-                                    <div className="icon">
-                                        <span>
-                                            <i class="fa-solid fa-chevron-right"></i>
+                                            <i className="fa-solid fa-chevron-right"></i>
                                         </span>
                                     </div>
                                 </div>
@@ -92,18 +100,6 @@ function Header() {
                     </div>
                 </div>
                 <button className='donate-btn'>donate</button>
-            </div>
-            <div className="hero-section">
-                <div className="overlay">
-                    <div className="text" data-text="compassion">
-                        <h1>choose <span>compassion</span></h1>
-                        <p>Help us put a stop to animal abuse and suffering</p>
-                        <div className="cta">
-                            <button>Why Vegan?</button>
-                            <button>Donate</button>
-                        </div>
-                    </div>
-                </div>
             </div>
         </>
     )
