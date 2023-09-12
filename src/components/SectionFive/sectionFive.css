@@ -1,0 +1,16 @@
+.section-five {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.join-us,
+.go-vegan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.join-us {
+    background-color: grey;
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@900&display=swap');
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 200;
+    height: 60px;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.logo {
+    width: 60px;
+    display: flex;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu-container {
+    width: 60px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+}
+
+.menu-button span {
+    display: flex;
+    align-items: center;
+}
+
+.menu-button span i {
+    font-size: 24px;
+    color: white;
+}
+
+.nav-content {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 60px;
+    max-height: 80vh;
+    display: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.nav-container {
+    height: 60px;
+    display: flex;
+}
+
+.nav-container-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.112);
+}
+
+.menu-name a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon span {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.donate-btn {
+    border: 2px solid var(--primary-color);
+    background-color: transparent;
+    color: black;
+    padding: 8px 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1523311964370-42ac336c878b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-position: top;
+    background-size: cover;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Biryani', sans-serif;
+    color: white;
+}
+
+.text h1 {
+    text-transform: uppercase;
+    font-family: 'Ruda', sans-serif !important;
+    font-size: 52px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+h1 span {
+    position: relative;
+}
+
+h1 span::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    bottom: 6px;
+    background-color: var(--primary-color);
+    left: 0;
+}
+
+.text p {
+    font-size: 16px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    padding: 0 0 70px 15px;
+}
+
+.cta {
+    display: flex;
+    gap: 10px;
+}
+
+.cta button {
+    border: none;
+    border-radius: 5px;
+    width: 140px;
+    height: 35px;
+    font-family: 'Biryani', sans-serif;
+}
+
+.cta button:first-child {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.cta button:last-child {
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 2px solid var(--primary-color);
+    background-color: white;
+}
+
+.nav-content.show {
+    display: block;
+}

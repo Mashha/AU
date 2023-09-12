@@ -1,0 +1,12 @@
+.section-one {
+    width: 80%;
+    margin: 0 auto 100px auto;
+    padding: 40px 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
