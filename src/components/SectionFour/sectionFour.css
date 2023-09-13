@@ -1,13 +1,43 @@
 .section-four {
-    margin: 50px auto;
-    background-color: bisque;
+  margin: 50px auto;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5815cb5b197aea6c5f13a2d0/1595959649026-M2VYOGS9L7KNSOSG6U2Q/av-hero-image.jpg?format=2500w");
+  background-size: cover;
+  background-position: center;
+  height: 25vh;
 }
 
-.inner { 
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 0;
+.inner {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  font-weight: 400;
+  text-align: center;
+  gap: 15px;
+}
+
+.inner-overlay {
+  width: 100%;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.inner p {
+  color: white;
+}
+
+.inner button {
+  border: none;
+  padding: 8px 30px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inner button a {
+  text-decoration: none;
+  color: white !important;
+  letter-spacing: 1px;
 }

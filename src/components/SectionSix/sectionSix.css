@@ -1,6 +1,51 @@
 .section-six {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.join-us,
+.go-vegan {
+  min-width: 350px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  letter-spacing: 0.5px;
+}
+
+.go-vegan {
+  background-image: url("../../assets/ella-olsson-yb6bm_66Jdk-unsplash.jpg");
+}
+
+.join-us {
+  background-image: url("../../assets/FB_IMG_1694597791154.jpg");
+}
+
+.bg-color {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+.bg-color button {
+  border: none;
+  padding: 8px 20px;
+
+  border-radius: 5px;
+  background-color: var(--primary-color);
+}
+
+.bg-color button a {
+  color: white !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
 }

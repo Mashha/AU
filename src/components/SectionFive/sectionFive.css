@@ -1,16 +1,54 @@
 .section-five {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-bottom: 40px;
 }
 
-.join-us,
-.go-vegan {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
+.section-five .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
+  gap: 10px;
+  font-family: "Biryani", sans-serif;
+  font-size: 12px;
 }
 
-.join-us {
-    background-color: grey;
+.section-five .card .image {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  z-index: 10;
+}
+
+.section-five .card .image::after {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background-color: var(--primary-color);
+  content: "";
+  top: -5px;
+  left: -5px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 100%;
+}
+
+.section-five .card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  object-position: top;
+}
+
+.card h3 {
+  font-weight: 600;
+}
+
+.card p {
+  font-weight: 300;
 }

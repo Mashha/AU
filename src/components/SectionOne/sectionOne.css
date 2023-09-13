@@ -1,12 +1,17 @@
 .section-one {
-    width: 80%;
-    margin: 0 auto 100px auto;
-    padding: 40px 0;
+  margin: 30px auto 80px auto;
+  padding: 40px 15px;
+  font-family: "Biryani", sans-serif;
+  font-weight: 300;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center i {
+  color: var(--primary-color);
 }
