@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import "./header.css";
-import logo from "../../assets/logo.png";
+import logo from "../../images/logo.png";
 import { NavLink } from "react-router-dom";
 import i18next from "i18next";
+import cookies from "js-cookie";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 function Header() {
+  const currentLanguageCode = cookies.get("i18next") || "en";
+
   const [showNav, setShowNav] = useState(false);
   const [showList, setShowList] = useState(false);
   const [showLang, setShowLang] = useState(false);
@@ -25,7 +28,7 @@ function Header() {
       country_code: "gb",
     },
     {
-      code: "sl",
+      code: "si",
       name: "Slovenian",
       country_code: "si",
     },
@@ -42,7 +45,7 @@ function Header() {
         <div className="menu-lang">
           <div className="menu-button-lang" onClick={dropDown}>
             <span>
-              <i class="fa-solid fa-globe"></i>
+              <i className="fa-solid fa-globe"></i>
             </span>
           </div>
           <div
@@ -55,12 +58,16 @@ function Header() {
                 <div key={country_code} className="lang-inner">
                   <span
                     className={`fi fi-${country_code}`}
+                    style={{
+                      opacity: currentLanguageCode === code ? 0.5 : 1,
+                    }}
                   ></span>
                   <button
                     onClick={() => {
                       i18next.changeLanguage(code);
                       setShowLang(false);
                     }}
+                    disabled={code === currentLanguageCode}
                   >
                     {name}
                   </button>
