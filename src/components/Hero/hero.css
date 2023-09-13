@@ -76,3 +76,7 @@ h1 span::after {
 button:last-child a {
   color: black;
 }
+
+button:first-child a {
+  color: white;
+}

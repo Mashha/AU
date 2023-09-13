@@ -17,3 +17,7 @@ body {
   height: 100vh;
   font-family: "Biryani", sans-serif;
 }
+
+button a {
+  text-decoration: none;
+}
