@@ -9,14 +9,16 @@ function Hero() {
     <div className="hero-section">
       <div className="overlay">
         <div className="text" data-text="compassion">
-          <h1>{t("hero_title")} <span>{t("hero_span")}</span></h1>
-          <p>Help us put a stop to animal abuse and suffering</p>
+          <h1>
+            {t("hero_title")} <span>{t("hero_span")}</span>
+          </h1>
+          <p>{t("hero_p")}</p>
           <div className="cta">
             <button>
-              <a href="#">Why Vegan?</a>
+              <a href="#">{t("hero_btn_one")}</a>
             </button>
             <button>
-              <a href="#">Donate</a>
+              <a href="#">{t("hero_btn_two")}</a>
             </button>
           </div>
         </div>

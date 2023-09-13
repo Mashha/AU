@@ -36,7 +36,7 @@ h1 span::after {
 
 .text p {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .overlay {
@@ -57,7 +57,7 @@ h1 span::after {
   border: none;
   border-radius: 5px;
   width: 140px;
-  height: 35px;
+  height: 40px;
   font-weight: 600;
   letter-spacing: 0.5px;
 }
@@ -65,6 +65,7 @@ h1 span::after {
 .cta button:first-child {
   background-color: var(--primary-color);
   color: white;
+  text-transform: uppercase;
 }
 
 .cta button:last-child {
