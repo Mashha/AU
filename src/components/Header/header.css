@@ -63,15 +63,17 @@
     display: flex;
     align-items: center;
     height: 60px;
+    padding-left: 16px;
+    gap: 10px;
 }
 
 .lang-inner button {
     border: none;
     background-color: transparent;
-    padding-left: 16px;
     font-weight: 400;
     font-family: 'Biryani', sans-serif;
     cursor: pointer;
+    padding-top: 3px;
 }
 
 .flex {

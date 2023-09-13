@@ -3,7 +3,7 @@ import "./header.css";
 import logo from "../../assets/logo.png";
 import { NavLink } from "react-router-dom";
 import i18next from "i18next";
-// import "flag-icon-css/css/flag-icon.css";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 function Header() {
   const [showNav, setShowNav] = useState(false);
@@ -54,7 +54,7 @@ function Header() {
               {languages.map(({ code, name, country_code }) => (
                 <div key={country_code} className="lang-inner">
                   <span
-                    className={`flag-icon flag-icon-${country_code}`}
+                    className={`fi fi-${country_code}`}
                   ></span>
                   <button
                     onClick={() => {
