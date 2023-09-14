@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import i18next from "i18next";
 import cookies from "js-cookie";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
+import { useTranslation } from "react-i18next";
 
 function Header() {
   const currentLanguageCode = cookies.get("i18next") || "en";
@@ -12,6 +13,8 @@ function Header() {
   const [showNav, setShowNav] = useState(false);
   const [showList, setShowList] = useState(false);
   const [showLang, setShowLang] = useState(false);
+
+  const { t } = useTranslation();
 
   function handleClick() {
     setShowNav(!showNav);
@@ -95,7 +98,7 @@ function Header() {
                 <div className="nav-container-inner" id="first">
                   <div className="menu-name">
                     <NavLink to="/who-we-are" onClick={handleClick}>
-                      who we are
+                      {t("about_us")}
                     </NavLink>
                   </div>
                   <div className="icon" id="iconOne">
@@ -110,7 +113,7 @@ function Header() {
                 <div className="nav-container-inner" id="sec">
                   <div className="menu-name">
                     <NavLink to="/what-we-do" onClick={handleClick}>
-                      what we do
+                      {t("what_we_do")}
                     </NavLink>
                   </div>
                   <div className="icon">
@@ -131,7 +134,7 @@ function Header() {
                 <div className="nav-container-inner" id="third">
                   <div className="menu-name">
                     <NavLink to="/issues" onClick={handleClick}>
-                      issues
+                      {t("issues")}
                     </NavLink>
                   </div>
                   <div className="icon">
@@ -165,7 +168,7 @@ function Header() {
                 <div className="nav-container-inner">
                   <div className="menu-name">
                     <NavLink to="/get-involved" onClick={handleClick}>
-                      get involved
+                      {t("get_involved")}
                     </NavLink>
                   </div>
                   <div className="icon">
@@ -180,7 +183,7 @@ function Header() {
                 <div className="nav-container-inner">
                   <div className="menu-name">
                     <NavLink to="/resources" onClick={handleClick}>
-                      resources
+                      {t("resources")}
                     </NavLink>
                   </div>
                   <div className="icon">

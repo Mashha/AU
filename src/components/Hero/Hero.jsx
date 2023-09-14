@@ -10,7 +10,8 @@ function Hero() {
       <div className="overlay">
         <div className="text" data-text="compassion">
           <h1>
-            {t("hero_title")} <span>{t("hero_span")}</span>
+            {t("hero_title")} <br />
+            <span>{t("hero_span")}</span>
           </h1>
           <p>{t("hero_p")}</p>
           <div className="cta">

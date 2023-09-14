@@ -45,7 +45,7 @@ h1 span::after {
   height: 100vh;
   display: flex;
   align-items: end;
-  padding: 0 0 70px 15px;
+  padding: 0 0 70px 16px;
 }
 
 .cta {
@@ -80,4 +80,19 @@ button:last-child a {
 
 button:first-child a {
   color: white;
+}
+
+@media (min-width: 800px) {
+  .text h1 {
+    font-size: 70px;
+  }
+  .overlay {
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .overlay {
+    padding-bottom: 120px;
+  }
 }

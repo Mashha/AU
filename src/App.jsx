@@ -1,17 +1,17 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import "./App.css"
-import Home from './pages/Home'
-import Header from "./components/Header/Header"
-import Footer from "./components/Footer/Footer"
-import WhoWeAre from "./pages/WhoWeAre/WhoWeAre"
-import Issues from "./pages/Issues/Issues"
-import WhatWeDo from "./pages/WhatWeDo/WhatWeDo"
-import Resources from "./pages/Resources/Resources"
-import GetInvolved from "./pages/GetInvolved/GetInvolved"
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./pages/Home";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import WhoWeAre from "./pages/WhoWeAre/WhoWeAre";
+import Issues from "./pages/Issues/Issues";
+import WhatWeDo from "./pages/WhatWeDo/WhatWeDo";
+import Resources from "./pages/Resources/Resources";
+import GetInvolved from "./pages/GetInvolved/GetInvolved";
+import { useTranslation } from "react-i18next";
 
 function App() {
-
+  const { t } = useTranslation();
   return (
     <BrowserRouter>
       <Header />
@@ -25,7 +25,7 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,85 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ruda:wght@900&display=swap");
 
 .nav {
-    display: grid;
-    grid-template-columns: 1fr auto auto;
-    font-family: 'Biryani', sans-serif;
-    font-weight: 200;
-    height: 60px;
-    align-items: center;
-    padding-left: 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  font-family: "Biryani", sans-serif;
+  font-weight: 200;
+  height: 60px;
+  align-items: center;
+  padding-left: 1rem;
 }
 
 .logo {
-    width: 60px;
-    display: flex;
+  width: 60px;
+  display: flex;
 }
 
 .logo img {
-    width: 100%;
+  width: 100%;
 }
 
-.menu-container, .menu-lang {
-    width: 60px;
-    height: inherit;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    cursor: pointer;
+.menu-container,
+.menu-lang {
+  width: 60px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  cursor: pointer;
 }
 
 .menu-lang {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
-.menu-button span, .menu-lang span {
-    display: flex;
-    align-items: center;
+.menu-button span,
+.menu-lang span {
+  display: flex;
+  align-items: center;
 }
 
-.menu-button span i , .menu-lang span i{
-    font-size: 24px;
-    color: white;
+.menu-button span i,
+.menu-lang span i {
+  font-size: 24px;
+  color: white;
 }
 
-.nav-content, .menu-lang-content {
-    position: absolute;
-    width: 100%;
-    background-color: white;
-    left: 0;
-    right: 0;
-    top: 60px;
-    max-height: 80vh;
-    display: none;
+.nav-content,
+.menu-lang-content {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  left: 0;
+  right: 0;
+  top: 60px;
+  max-height: 80vh;
+  display: none;
 }
 
 .menu-lang-content.drop {
-    display: block;
+  display: block;
 }
 
 .lang-inner {
-    background-color: rgba(128, 128, 128, 0.112);
-    display: flex;
-    align-items: center;
-    height: 60px;
-    padding-left: 16px;
-    gap: 10px;
+  background-color: rgba(128, 128, 128, 0.112);
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding-left: 16px;
+  gap: 10px;
 }
 
 .lang-inner button {
-    border: none;
-    background-color: transparent;
-    font-weight: 400;
-    font-family: 'Biryani', sans-serif;
-    cursor: pointer;
-    padding-top: 3px;
+  border: none;
+  background-color: transparent;
+  font-weight: 400;
+  font-family: "Biryani", sans-serif;
+  cursor: pointer;
+  padding-top: 3px;
 }
 
 .flex {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 /* .nav-container {
@@ -87,69 +91,121 @@
 } */
 
 .nav-container-inner {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 16px;
-    align-items: center;
-    background-color: rgba(128, 128, 128, 0.112);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.112);
 }
 
 .menu-name a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 400;
 }
 
 .icon {
-    width: 60px;
-    height: 60px;
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon span {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
 .donate-btn {
-    border: 2px solid var(--primary-color);
-    background-color: transparent;
-    color: black;
-    padding: 8px 4px;
-    text-transform: uppercase;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none;
+  border: 2px solid var(--primary-color);
+  background-color: transparent;
+  color: black;
+  padding: 8px 4px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
 }
 
 .nav-content.show {
-    display: block;
+  display: block;
 }
 
 .list {
-    padding: 10px 16px;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    display: none;
+  padding: 10px 16px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  display: none;
 }
 
 .list li a {
-    color: black;
-    text-decoration: none;
-    font-weight: 300;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  cursor: pointer;
 }
 
 .list.show {
-    display: block;
+  display: block;
+}
+
+@media (min-width: 800px) {
+
+.flex {
+    flex-direction: row;
+    background-color: rgba(128, 128, 128, 0.112);
+    gap: 0;
+    justify-content: center;
+  }
+
+  .nav-container {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 0 20px 0;
+  }
+
+  .nav-container:last-child {
+    border: none;
+  }
+
+  .nav-container .icon {
+    display: none;
+  }
+  .nav-container-inner {
+    padding: 0 0 10px 0;
+    background-color: transparent;
+    width: auto;
+    margin: 0 20px 0 20px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .list li a {
+    font-size: 14px;
+  }
+
+  .menu-name a {
+    text-transform: none;
+  }
+
+  .menu-lang-content .flex {
+    gap: 10px;
+  }
+  .lang-inner {
+    padding: 0 10px 0 10px;
+  }
 }
