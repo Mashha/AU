@@ -128,7 +128,14 @@ function Header() {
                     )}
                   </div>
                 </div>
-                <ul className="list"></ul>
+                <ul className="list">
+                  <li>
+                    <a href="#">Street activism</a>
+                  </li>
+                  <li>
+                    <a href="#">Education</a>
+                  </li>
+                </ul>
               </div>
               <div className="nav-container closed">
                 <div className="nav-container-inner" id="third">

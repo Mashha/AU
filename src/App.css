@@ -21,3 +21,28 @@ body {
 button a {
   text-decoration: none;
 }
+
+h2 {
+  font-family: "Ruda", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+h2:after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 4px;
+  background-color: var(--primary-color);
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+p {
+  font-family: "Biryani", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}

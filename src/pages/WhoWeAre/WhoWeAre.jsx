@@ -3,7 +3,12 @@ import "./whoWeAre.css"
 
 function WhoWeAre() {
   return (
-    <div>WhoWeAre</div>
+
+    <div>
+      - who we are
+      - what we stand for
+      - our team
+    </div>
   )
 }
 
