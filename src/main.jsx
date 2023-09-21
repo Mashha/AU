@@ -4,9 +4,10 @@ import { initReactI18next } from "react-i18next";
 import i18next from "i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import HttpApi from 'i18next-http-backend';
-import translationEN from "../public/assets/locales/en/translation.json"
-import translationSI from "../public/assets/locales/si/translation.json"
 import App from "./App.jsx";
+
+const translationEN = "/assets/locales/en/translation.json?url"
+const translationSI = "/assets/locales/si/translation.json?url"
 
 const resources = {
   en: {
