@@ -10,16 +10,16 @@ function Hero() {
       <div className="overlay">
         <div className="text" data-text="compassion">
           <h1>
-            {t("hero_title")} <br />
-            <span>{t("hero_span")}</span>
+            {t("hero-home.hero_title")} <br />
+            <span>{t("hero-home.hero_span")}</span>
           </h1>
-          <p>{t("hero_p")}</p>
+          <p>{t("hero-home.hero_p")}</p>
           <div className="cta">
             <button>
-              <a href="#">{t("hero_btn_one")}</a>
+              <a href="#">{t("hero-home.hero_btn_one")}</a>
             </button>
             <button>
-              <a href="#">{t("hero_btn_two")}</a>
+              <a href="#">{t("hero-home.hero_btn_two")}</a>
             </button>
           </div>
         </div>

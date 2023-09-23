@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./header.css";
 import logo from "../../images/logo.png";
 import { NavLink } from "react-router-dom";
@@ -24,11 +24,6 @@ function Header() {
   const currentLanguageCode = cookie.get("i18next") || "en";
   const currentLanguage = languages.find((l) => l.code === currentLanguageCode);
   const { t, i18n } = useTranslation();
-
-  // useEffect(() => {
-  //   console.log("Setting page stuff");
-  //   document.title = t("app_title");
-  // }, [currentLanguage, t]);
 
   const [showNav, setShowNav] = useState(false);
   const [showLang, setShowLang] = useState(false);
@@ -72,8 +67,7 @@ function Header() {
                     i18next.changeLanguage(code);
                     setShowLang(false);
                   }}
-                  disabled={code === currentLanguageCode}
-                >
+                  disabled={code === currentLanguageCode}>
                   {name}
                 </button>
               </div>

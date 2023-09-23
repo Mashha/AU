@@ -12,14 +12,14 @@ import Hero from '../components/Hero/Hero'
 function Home() {
     return (
         <>
-            {/* <Hero />
+            <Hero />
             <SectionOne />
             <SectionTwo />
             <SectionThree />
             <SectionFour />
             <SectionFive />
             <SectionSix />
-            <SectionSeven /> */}
+            <SectionSeven />
         </>
     )
 }

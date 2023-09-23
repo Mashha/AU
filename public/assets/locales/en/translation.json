@@ -1,9 +1,11 @@
 {
-  "hero_title": "Choose",
-  "hero_span": "compassion",
-  "hero_p": "Help us put a stop to animal abuse and suffering",
-  "hero_btn_one": "Why vegan?",
-  "hero_btn_two": "Donate",
+  "hero-home": {
+    "hero_title": "Choose",
+    "hero_span": "compassion",
+    "hero_p": "Help us put a stop to animal abuse and suffering",
+    "hero_btn_one": "Why vegan?",
+    "hero_btn_two": "Donate"
+  },
 
   "routes": {
     "home": "home",
@@ -21,5 +23,13 @@
     "issues_nav": "industry",
     "get_involved_nav": "get involved",
     "resources_nav": "resources"
+  }, 
+  "hero-what-we-do": {
+    "title": "Building a better future",
+    "title_one": "What we focus on",
+    "para_one": "Our two main focuses are peaceful street activism and education of the public.",
+    "para_two": "With your support and kind heart we can save milions of animals from suffering and death.",
+    "para_three": "With street activism we try to reach as many people as possible and show them the reality of what lives of farm animals really look like.",
+    "para_four": "We use various materials to provide people with information about what is going on. We use videos, articles and images."
   }
 }

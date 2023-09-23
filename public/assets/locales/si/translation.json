@@ -1,9 +1,11 @@
 {
-  "hero_title": "izberi",
-  "hero_span": "sočutje",
-  "hero_p": "Pomagaj nam ustaviti zlorabo in trpljenje živali",
-  "hero_btn_one": "Zakaj veganstvo?",
-  "hero_btn_two": "Doniranj",
+  "hero-home": {
+    "hero_title": "izberi",
+    "hero_span": "sočutje",
+    "hero_p": "Pomagaj nam ustaviti zlorabo in trpljenje živali",
+    "hero_btn_one": "Zakaj veganstvo?",
+    "hero_btn_two": "Doniranj"
+  },
 
   "routes": {
     "home": "domov",
@@ -21,5 +23,13 @@
     "issues_nav": "industrija",
     "get_involved_nav": "pomagaj",
     "resources_nav": "viri"
+  },
+  "hero-what-we-do": {
+    "title": "Gradimo lepšo prihodnjost",
+    "title_one": "Naš fokus",
+    "para_one": "Naša glavna fokusa sta miroljubni ulični aktivizem in izobraževanje javnosti.",
+    "para_two": "Z vašo podporo in srčnostjo lahko rešimo milijone živali pred trpljenjem in smrtjo.",
+    "para_three": "Z uličnim aktivizmom poskušamo čim več ljudem prikazati realnost, kako v resnici izgledajo življenja rejnih živali.",
+    "para_four": "Uporabljamo različne materiale, da ljudem posredujemo informacije o tem, kaj se dogaja. Uporabljamo video posnetke, članke in slike."
   }
 }
