@@ -11,13 +11,15 @@ import GetInvolved from "./pages/GetInvolved/GetInvolved";
 import { useTranslation } from "react-i18next";
 
 function App() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  console.log(i18n.language)
+
   return (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route exact path="/AU/" element={<Home />} />
-        <Route path="/who-we-are" element={<WhoWeAre />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path={`/${i18n.language}/who-we-are`} element={<WhoWeAre />} />
         <Route path="/what-we-do" element={<WhatWeDo />} />
         <Route path="/issues" element={<Issues />} />
         <Route path="/get-involved" element={<GetInvolved />} />

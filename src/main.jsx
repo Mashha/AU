@@ -1,43 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { initReactI18next } from "react-i18next";
-import i18next from "i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
-import HttpApi from 'i18next-http-backend';
-import App from "./App.jsx";
+import HttpApi from 'i18next-http-backend'
+import App from "./App";
 
-const translationEN = "/assets/locales/en/translation.json?url"
-const translationSI = "/assets/locales/si/translation.json?url"
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
 
-const resources = {
-  en: {
-    translation: translationEN,
-  },
-  si: {
-    translation: translationSI,
-  },
- };
-
-i18next
-  .use(initReactI18next)
+i18n
+  .use(initReactI18next) // passes i18n down to react-i18next
   .use(LanguageDetector)
   .use(HttpApi)
   .init({
-    supportedLngs: ["en", "si"],
-    debug: false,
+    supportedLngs: ['en', 'si'],
+    lng: "en", // if you're using a language detector, do not define the lng option
     fallbackLng: "en",
-    resources,
     detection: {
-      order: [
-        "path",
-        "cookie",
-        "htmlTag",
-      ],
-      caches: ['cookie'],
+      order: ["path", "cookie", "htmlTag"],
+      caches: ["cookie"],
     },
     backend: {
       loadPath: '/assets/locales/{{lng}}/translation.json',
-    }
+    },
   });
 
 
