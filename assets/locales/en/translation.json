@@ -3,5 +3,12 @@
   "hero_span": "compassion",
   "hero_p": "Help us put a stop to animal abuse and suffering",
   "hero_btn_one": "Why vegan?",
-  "hero_btn_two": "Donate"
+  "hero_btn_two": "Donate",
+
+  "home": "home",
+  "about_us": "Who we are",
+  "what_we_do": "What we do",
+  "issues": "Industry",
+  "get_involved": "Get involved",
+  "resources": "Resources"
 }

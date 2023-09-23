@@ -3,5 +3,12 @@
   "hero_span": "sočutje",
   "hero_p": "Pomagaj nam ustaviti zlorabo in trpljenje živali",
   "hero_btn_one": "Zakaj veganstvo?",
-  "hero_btn_two": "Doniranj"
+  "hero_btn_two": "Doniranj",
+
+  "home": "domov",
+  "about_us": "Ksdo smo",
+  "what_we_do": "Naše delo",
+  "issues": "Industrija",
+  "get_involved": "Pomagaj",
+  "resources": "Viri"
 }
