@@ -12,18 +12,17 @@ import { useTranslation } from "react-i18next";
 
 function App() {
   const { t, i18n } = useTranslation();
-  console.log(i18n.language)
 
   return (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path={`/${i18n.language}/who-we-are`} element={<WhoWeAre />} />
-        <Route path="/what-we-do" element={<WhatWeDo />} />
-        <Route path="/issues" element={<Issues />} />
-        <Route path="/get-involved" element={<GetInvolved />} />
-        <Route path="/resources" element={<Resources />} />
+        <Route exact path={t("routes.home")} element={<Home />} />
+        <Route path={t("routes.about_us")} element={<WhoWeAre />} />
+        <Route path={t("routes.what_we_do")} element={<WhatWeDo />} />
+        <Route path={t("routes.issues")} element={<Issues />} />
+        <Route path={t("routes.get_involved")} element={<GetInvolved />} />
+        <Route path={t("routes.resources")} element={<Resources />} />
       </Routes>
       <Footer />
     </BrowserRouter>

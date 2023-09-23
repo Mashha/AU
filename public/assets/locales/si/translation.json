@@ -5,10 +5,21 @@
   "hero_btn_one": "Zakaj veganstvo?",
   "hero_btn_two": "Doniranj",
 
-  "home": "domov",
-  "about_us": "Ksdo smo",
-  "what_we_do": "Naše delo",
-  "issues": "Industrija",
-  "get_involved": "Pomagaj",
-  "resources": "Viri"
+  "routes": {
+    "home": "domov",
+    "about_us": "kdo_smo",
+    "what_we_do": "naše_delo",
+    "issues": "industrija",
+    "get_involved": "pomagaj",
+    "resources": "viri"
+  },
+
+  "nav": {
+    "home_nav": "domov",
+    "about_us_nav": "kdo smo",
+    "what_we_do_nav": "naše delo",
+    "issues_nav": "industrija",
+    "get_involved_nav": "pomagaj",
+    "resources_nav": "viri"
+  }
 }

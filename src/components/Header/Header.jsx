@@ -24,7 +24,7 @@ function Header() {
   const currentLanguageCode = cookie.get("i18next") || "en";
   const currentLanguage = languages.find((l) => l.code === currentLanguageCode);
   const { t, i18n } = useTranslation();
-  
+
   // useEffect(() => {
   //   console.log("Setting page stuff");
   //   document.title = t("app_title");
@@ -44,7 +44,7 @@ function Header() {
   return (
     <>
       <div className="nav">
-        <NavLink to="/AU/" className="logo">
+        <NavLink to={t("routes.home")} className="logo">
           <img src={logo} alt="" />
         </NavLink>
 
@@ -55,7 +55,9 @@ function Header() {
             </span>
           </div>
         </div>
-        <div className={showLang ? "menu-lang-content drop" : "menu-lang-content"}>
+        <div
+          className={showLang ? "menu-lang-content drop" : "menu-lang-content"}
+        >
           <div className="flex">
             {languages.map(({ code, name, country_code }) => (
               <div key={country_code} className="lang-inner">
@@ -63,13 +65,15 @@ function Header() {
                   className={`fi fi-${country_code}`}
                   style={{
                     opacity: currentLanguageCode === code ? 0.5 : 1,
-                  }}></span>
+                  }}
+                ></span>
                 <button
                   onClick={() => {
                     i18next.changeLanguage(code);
                     setShowLang(false);
                   }}
-                  disabled={code === currentLanguageCode}>
+                  disabled={code === currentLanguageCode}
+                >
                   {name}
                 </button>
               </div>
@@ -97,8 +101,8 @@ function Header() {
             <div className="nav-container closed">
               <div className="nav-container-inner" id="first">
                 <div className="menu-name">
-                  <NavLink to="/who-we-are" onClick={handleClick}>
-                    who we are
+                  <NavLink to={t("routes.about_us")} onClick={handleClick}>
+                    {t("nav.about_us_nav")}
                   </NavLink>
                 </div>
                 <div className="icon" id="iconOne">
@@ -111,8 +115,8 @@ function Header() {
             <div className="nav-container closed">
               <div className="nav-container-inner" id="sec">
                 <div className="menu-name">
-                  <NavLink to="/what-we-do" onClick={handleClick}>
-                    what we do
+                  <NavLink to={t("routes.what_we_do")} onClick={handleClick}>
+                    {t("nav.what_we_do_nav")}
                   </NavLink>
                 </div>
                 <div className="icon">
@@ -125,8 +129,8 @@ function Header() {
             <div className="nav-container closed">
               <div className="nav-container-inner" id="third">
                 <div className="menu-name">
-                  <NavLink to="/issues" onClick={handleClick}>
-                    issues
+                  <NavLink to={t("routes.issues")} onClick={handleClick}>
+                    {t("nav.issues_nav")}
                   </NavLink>
                 </div>
                 <div className="icon">
@@ -139,8 +143,8 @@ function Header() {
             <div className="nav-container closed">
               <div className="nav-container-inner">
                 <div className="menu-name">
-                  <NavLink to="/get-involved" onClick={handleClick}>
-                    get involved
+                  <NavLink to={t("routes.get_involved")} onClick={handleClick}>
+                    {t("nav.get_involved_nav")}
                   </NavLink>
                 </div>
                 <div className="icon">
@@ -153,8 +157,8 @@ function Header() {
             <div className="nav-container closed">
               <div className="nav-container-inner">
                 <div className="menu-name">
-                  <NavLink to="/resources" onClick={handleClick}>
-                    resources
+                  <NavLink to={t("routes.resources")} onClick={handleClick}>
+                    {t("nav.resources_nav")}
                   </NavLink>
                 </div>
                 <div className="icon">

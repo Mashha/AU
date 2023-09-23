@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import LanguageDetector from "i18next-browser-languagedetector";
-import HttpApi from 'i18next-http-backend'
+import HttpApi from "i18next-http-backend";
 import App from "./App";
 
 import i18n from "i18next";
@@ -12,7 +12,7 @@ i18n
   .use(LanguageDetector)
   .use(HttpApi)
   .init({
-    supportedLngs: ['en', 'si'],
+    supportedLngs: ["en", "si"],
     lng: "en", // if you're using a language detector, do not define the lng option
     fallbackLng: "en",
     detection: {
@@ -20,10 +20,9 @@ i18n
       caches: ["cookie"],
     },
     backend: {
-      loadPath: '/assets/locales/{{lng}}/translation.json',
+      loadPath: "/assets/locales/{{lng}}/translation.json",
     },
   });
-
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
