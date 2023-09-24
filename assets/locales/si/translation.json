@@ -6,7 +6,6 @@
     "hero_btn_one": "Zakaj veganstvo?",
     "hero_btn_two": "Doniranj"
   },
-
   "routes": {
     "home": "domov",
     "about_us": "kdo_smo",
@@ -15,7 +14,6 @@
     "get_involved": "pomagaj",
     "resources": "viri"
   },
-
   "nav": {
     "home_nav": "domov",
     "about_us_nav": "kdo smo",
