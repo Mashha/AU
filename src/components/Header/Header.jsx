@@ -39,7 +39,7 @@ function Header() {
   return (
     <>
       <div className="nav">
-        <NavLink to={t("routes.home")} className="logo">
+        <NavLink to='/' className="logo">
           <img src={logo} alt="" />
         </NavLink>
 
@@ -95,7 +95,7 @@ function Header() {
             <div className="nav-container closed">
               <div className="nav-container-inner" id="first">
                 <div className="menu-name">
-                  <NavLink to={t("routes.about_us")} onClick={handleClick}>
+                  <NavLink to='/who-we-are' onClick={handleClick}>
                     {t("nav.about_us_nav")}
                   </NavLink>
                 </div>
@@ -109,7 +109,7 @@ function Header() {
             <div className="nav-container closed">
               <div className="nav-container-inner" id="sec">
                 <div className="menu-name">
-                  <NavLink to={t("routes.what_we_do")} onClick={handleClick}>
+                  <NavLink to='/what_we_do' onClick={handleClick}>
                     {t("nav.what_we_do_nav")}
                   </NavLink>
                 </div>
