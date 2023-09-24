@@ -19,7 +19,9 @@
   letter-spacing: 1px;
 }
 
-.who-we-are {
+.who-we-are,
+.our-team-values,
+.our-team {
   display: flex;
   flex-direction: column;
   text-align: center;
