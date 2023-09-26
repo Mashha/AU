@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import logo from "../../images/logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import i18next from "i18next";
 import cookie from "js-cookie";
@@ -24,6 +24,7 @@ function Header() {
   const currentLanguageCode = cookie.get("i18next") || "en";
   const currentLanguage = languages.find((l) => l.code === currentLanguageCode);
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate()
 
   const [showNav, setShowNav] = useState(false);
   const [showLang, setShowLang] = useState(false);
@@ -39,7 +40,7 @@ function Header() {
   return (
     <>
       <div className="nav">
-        <NavLink to='/' className="logo">
+        <NavLink to={t('routes.home')} className="logo">
           <img src={logo} alt="" />
         </NavLink>
 
@@ -63,9 +64,19 @@ function Header() {
                   }}
                 ></span>
                 <button
-                  onClick={() => {
-                    i18next.changeLanguage(code);
+                  onClick={async() => {
                     setShowLang(false);
+                    const currentRoute = location.pathname.substring(1);
+                    const decodedCurrentRoute = decodeURI(currentRoute)
+                    const oldLanguageRouteTranslation = i18n.getResource(currentLanguageCode, 'translation', 'routes')
+                    await i18n.loadLanguages(code)
+                    const newLanguageRouteTranslation = i18n.getResource(code, 'translation', 'routes')
+                    const translationKey = Object.keys(oldLanguageRouteTranslation).find((key) => oldLanguageRouteTranslation[key] === decodedCurrentRoute)
+                 
+                    console.log({currentRoute, decodedCurrentRoute, oldLanguageRouteTranslation, newLanguageRouteTranslation, translationKey, newLang: code})
+                    i18n.changeLanguage(code, () => {
+                    navigate(`/${newLanguageRouteTranslation[translationKey]}`)
+                  })
                   }}
                   disabled={code === currentLanguageCode}>
                   {name}
@@ -95,7 +106,7 @@ function Header() {
             <div className="nav-container closed">
               <div className="nav-container-inner" id="first">
                 <div className="menu-name">
-                  <NavLink to='/who-we-are' onClick={handleClick}>
+                  <NavLink to={t('routes.about_us')} onClick={handleClick}>
                     {t("nav.about_us_nav")}
                   </NavLink>
                 </div>
@@ -109,7 +120,7 @@ function Header() {
             <div className="nav-container closed">
               <div className="nav-container-inner" id="sec">
                 <div className="menu-name">
-                  <NavLink to='/what_we_do' onClick={handleClick}>
+                  <NavLink to={t('routes.what_we_do')} onClick={handleClick}>
                     {t("nav.what_we_do_nav")}
                   </NavLink>
                 </div>
