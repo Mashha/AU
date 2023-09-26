@@ -16,7 +16,7 @@ function App() {
   // const routePath = currentLanguage === 'en' ? translationEN : translationSI
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Header />
       <Routes>
       <Route exact path={t("routes.home")} element={<Home />} />
