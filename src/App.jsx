@@ -16,10 +16,10 @@ function App() {
   // const routePath = currentLanguage === 'en' ? translationEN : translationSI
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/AU/'}>
       <Header />
       <Routes>
-      <Route exact path={t("routes.home")} element={<Home />} />
+         <Route exact path={t("routes.home")} element={<Home />} />
          <Route path={t('routes.about_us')} element={<WhoWeAre />} />
          <Route path={t('routes.what_we_do')} element={<WhatWeDo />} />
          <Route path={t('routes.issues')} element={<Issues />} />
