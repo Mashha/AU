@@ -40,7 +40,7 @@ function Header() {
   return (
     <>
       <div className="nav">
-        <NavLink to='/' className="logo">
+        <NavLink to={t('routes.home')} className="logo">
           <img src={logo} alt="" />
         </NavLink>
 
