@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-         <Route exact path={t("routes.home")} element={<Home />} />
+         <Route exact path='/' element={<Home />} />
          <Route path={t('routes.about_us')} element={<WhoWeAre />} />
          <Route path={t('routes.what_we_do')} element={<WhatWeDo />} />
          <Route path={t('routes.issues')} element={<Issues />} />
