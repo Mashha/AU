@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter, HashRouter } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import Header from "./components/Header/Header";
@@ -8,6 +8,7 @@ import Issues from "./pages/Issues/Issues";
 import WhatWeDo from "./pages/WhatWeDo/WhatWeDo";
 import Resources from "./pages/Resources/Resources";
 import GetInvolved from "./pages/GetInvolved/GetInvolved";
+import IssuesMeat from "./pages/IssuesSub/IssuesMeat";
 import { useTranslation } from "react-i18next";
 
 function App() {
@@ -16,18 +17,20 @@ function App() {
   // const routePath = currentLanguage === 'en' ? translationEN : translationSI
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <Routes>
          <Route exact path={t("routes.home")} element={<Home />} />
          <Route path={t('routes.about_us')} element={<WhoWeAre />} />
          <Route path={t('routes.what_we_do')} element={<WhatWeDo />} />
-         <Route path={t('routes.issues')} element={<Issues />} />
+         <Route path={t('routes.issues')} element={<Issues />}>
+              <Route path={t('routes.issues_meat')} element={<IssuesMeat />} />
+         </Route>
          <Route path={t('routes.get_involved')} element={<GetInvolved />} />
          <Route path={t('routes.resources')} element={<Resources />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

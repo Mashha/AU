@@ -6,11 +6,6 @@
   height: calc(100vh - 60px);
 }
 
-.overlay {
-  height: calc(100vh - 60px);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
-}
-
 .who-we-are-inner h1 {
   text-transform: uppercase;
   font-family: "Ruda", sans-serif;
