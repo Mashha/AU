@@ -1,6 +1,7 @@
 import React from "react";
 import "./whoWeAre.css";
 import values from "../../images/values.jpg"
+import team from "../../images/team.jpg"
 import { useTranslation } from "react-i18next";
 
 function WhoWeAre() {
@@ -28,7 +29,7 @@ function WhoWeAre() {
       </div>
       
       <div className="our-team">
-        <p>team image</p>
+        <img src={team} alt="" />
         <h2>{t("about_us.our_team_title")}</h2>
       </div>
     </div>
