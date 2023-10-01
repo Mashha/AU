@@ -10,15 +10,19 @@
     "home": "domov",
     "about_us": "kdo_smo",
     "what_we_do": "naše_delo",
-    "issues": "industrija",
+    "issues": "veganstvo",
     "get_involved": "pomagaj",
-    "resources": "viri"
+    "resources": "viri",
+    "issues_meat": "veganstvo/meso",
+    "issues_dairy": "veganstvo/mleko",
+    "issues_eggs": "veganstvo/jajca",
+    "issues_fish": "veganstvo/ribe"
   },
   "nav": {
     "home_nav": "domov",
     "about_us_nav": "kdo smo",
     "what_we_do_nav": "naše delo",
-    "issues_nav": "industrija",
+    "issues_nav": "zakaj veganstvo",
     "get_involved_nav": "pomagaj",
     "resources_nav": "viri"
   },

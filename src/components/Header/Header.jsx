@@ -61,7 +61,8 @@ function Header() {
                   className={`fi fi-${country_code}`}
                   style={{
                     opacity: currentLanguageCode === code ? 0.5 : 1,
-                  }}></span>
+                  }}
+                ></span>
                 <button
                   onClick={async () => {
                     setShowLang(false);
@@ -99,7 +100,8 @@ function Header() {
                       );
                     });
                   }}
-                  disabled={code === currentLanguageCode}>
+                  disabled={code === currentLanguageCode}
+                >
                   {name}
                 </button>
               </div>

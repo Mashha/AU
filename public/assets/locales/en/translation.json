@@ -10,15 +10,19 @@
     "home": "",
     "about_us": "who_we_are",
     "what_we_do": "what_we_do",
-    "issues": "industry",
+    "issues": "veganism",
     "get_involved": "get_involved",
-    "resources": "resources"
+    "resources": "resources",
+    "issues_meat": "veganism/meat",
+    "issues_dairy": "veganism/milk",
+    "issues_eggs": "veganism/eggs",
+    "issues_fish": "veganism/fish"
   },
   "nav": {
     "home_nav": "home",
     "about_us_nav": "who we are",
     "what_we_do_nav": "what we do",
-    "issues_nav": "industry",
+    "issues_nav": "veganism",
     "get_involved_nav": "get involved",
     "resources_nav": "resources"
   },
