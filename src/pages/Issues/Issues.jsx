@@ -3,6 +3,7 @@ import "./issues.css";
 import { useTranslation } from "react-i18next";
 import earthlings from "../../images/earthlings.jpg";
 import dominion from "../../images/dominion.jpg";
+import sanctuary from "../../images/donate.jpg";
 
 function Issues() {
   const { t } = useTranslation();
@@ -27,7 +28,15 @@ function Issues() {
           factory farms. As food industry is working very hard to hide it from
           all of us.
         </p>
-        <p>Their lives are anthing but happy. Take a look for yourself.</p>
+        <p>
+          Animals, just like humans feel strong emotions, they are happy just as
+          we are, they are sad just as we are and they get scared and feel pain,
+          just as we do.
+        </p>
+        <p>
+          If you know how pain and sadness feels, why would you want to inflict
+          that on an innocent beings?
+        </p>
       </div>
 
       <div className="issues-meat">
@@ -51,6 +60,7 @@ function Issues() {
           </button>
         </div>
       </div>
+
       <div className="issues-dairy">
         <img
           src="https://images.unsplash.com/photo-1602153508753-4ace888c10a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
@@ -71,6 +81,7 @@ function Issues() {
           </button>
         </div>
       </div>
+
       <div className="issues-eggs">
         <img
           src="https://images.unsplash.com/photo-1498654077810-12c21d4d6dc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWdnc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -93,6 +104,7 @@ function Issues() {
           </button>
         </div>
       </div>
+
       <div className="issues-fish">
         <img
           src="https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
@@ -126,6 +138,21 @@ function Issues() {
         </div>
       </div>
 
+      <div className="issues-other">
+        <p>
+          Of course meat, egg, dairy and fish industries are not the only ones
+          causing animal exploitation and abuse.
+        </p>
+        <p>
+          Animals are being used for clothing, for "fun", in the wild and also
+          for testing.
+        </p>
+        <p>
+          You can read more about it in our{" "}
+          <a href={t("routes.resources")}>resources</a> section.
+        </p>
+      </div>
+
       <div className="documentaries">
         <h2>Documentaries</h2>
 
@@ -144,6 +171,7 @@ function Issues() {
             Watch now
           </a>
         </div>
+
         <div className="dominion">
           <img src={dominion} alt="" />
           <h3>Dominion</h3>
@@ -159,6 +187,28 @@ function Issues() {
             Watch now
           </a>
         </div>
+      </div>
+
+      <div className="animal-sanctuary">
+        <h2>Animal sanctuary</h2>
+        <p>
+          Animal sanctuary is a place where animals, often rescued from neglect,
+          abuse, or difficult situations, are provided with a safe environment
+          to live out their lives.
+        </p>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/cDCY5EPYSZE?si=q0j0PcKPzYhEkZ8z"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+
+        <button className="btn">
+          <a href="">Watch more</a>
+        </button>
       </div>
     </div>
   );

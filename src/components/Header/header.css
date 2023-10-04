@@ -110,6 +110,10 @@
   width: 100%;
 }
 
+.nav-container a {
+  text-decoration: none;
+}
+
 .nav-container-inner {
   width: 100%;
   display: flex;
@@ -119,8 +123,7 @@
   background-color: rgba(128, 128, 128, 0.112);
 }
 
-.menu-name a {
-  text-decoration: none;
+.menu-name {
   text-transform: uppercase;
   color: black;
   font-weight: 400;

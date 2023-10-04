@@ -1,6 +1,6 @@
 import React from "react";
 import "./whatWeDo.css";
-import street_activism_one from "../../images/street_activism1.jpg";
+import mask from "../../images/mask.jpg";
 import street_activism_two from "../../images/street_activism2.jpg";
 import { useTranslation } from "react-i18next";
 
@@ -47,7 +47,7 @@ function WhatWeDo() {
 
       <div className="education">
         <div className="education-image">
-          <img src={street_activism_one} alt="" />
+          <img src={mask} alt="" />
           <div className="color-overlay"></div>
         </div>
         <div className="education-para center">

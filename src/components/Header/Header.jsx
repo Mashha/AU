@@ -127,74 +127,64 @@ function Header() {
         <div className={showNav ? "nav-content show" : "nav-content"}>
           <div className="flex">
             <div className="nav-container closed">
-              <div className="nav-container-inner" id="first">
-                <div className="menu-name">
-                  <NavLink to={t("routes.about_us")} onClick={handleClick}>
-                    {t("nav.about_us_nav")}
-                  </NavLink>
+              <NavLink to={t("routes.about_us")} onClick={handleClick}>
+                <div className="nav-container-inner" id="first">
+                  <div className="menu-name">{t("nav.about_us_nav")}</div>
+                  <div className="icon" id="iconOne">
+                    <span>
+                      <i className="fa-solid fa-chevron-right"></i>
+                    </span>
+                  </div>
                 </div>
-                <div className="icon" id="iconOne">
-                  <span>
-                    <i className="fa-solid fa-chevron-right"></i>
-                  </span>
-                </div>
-              </div>
+              </NavLink>
             </div>
             <div className="nav-container closed">
-              <div className="nav-container-inner" id="sec">
-                <div className="menu-name">
-                  <NavLink to={t("routes.what_we_do")} onClick={handleClick}>
-                    {t("nav.what_we_do_nav")}
-                  </NavLink>
+              <NavLink to={t("routes.what_we_do")} onClick={handleClick}>
+                <div className="nav-container-inner" id="sec">
+                  <div className="menu-name">{t("nav.what_we_do_nav")}</div>
+                  <div className="icon">
+                    <span>
+                      <i className="fa-solid fa-chevron-right"></i>
+                    </span>
+                  </div>
                 </div>
-                <div className="icon">
-                  <span>
-                    <i className="fa-solid fa-chevron-right"></i>
-                  </span>
-                </div>
-              </div>
+              </NavLink>
             </div>
             <div className="nav-container closed">
-              <div className="nav-container-inner" id="third">
-                <div className="menu-name">
-                  <NavLink to={t("routes.issues")} onClick={handleClick}>
-                    {t("nav.issues_nav")}
-                  </NavLink>
+              <NavLink to={t("routes.issues")} onClick={handleClick}>
+                <div className="nav-container-inner" id="third">
+                  <div className="menu-name">{t("nav.issues_nav")}</div>
+                  <div className="icon">
+                    <span>
+                      <i className="fa-solid fa-chevron-right"></i>
+                    </span>
+                  </div>
                 </div>
-                <div className="icon">
-                  <span>
-                    <i className="fa-solid fa-chevron-right"></i>
-                  </span>
-                </div>
-              </div>
+              </NavLink>
             </div>
             <div className="nav-container closed">
-              <div className="nav-container-inner">
-                <div className="menu-name">
-                  <NavLink to={t("routes.get_involved")} onClick={handleClick}>
-                    {t("nav.get_involved_nav")}
-                  </NavLink>
+              <NavLink to={t("routes.get_involved")} onClick={handleClick}>
+                <div className="nav-container-inner">
+                  <div className="menu-name">{t("nav.get_involved_nav")}</div>
+                  <div className="icon">
+                    <span>
+                      <i className="fa-solid fa-chevron-right"></i>
+                    </span>
+                  </div>
                 </div>
-                <div className="icon">
-                  <span>
-                    <i className="fa-solid fa-chevron-right"></i>
-                  </span>
-                </div>
-              </div>
+              </NavLink>
             </div>
             <div className="nav-container closed">
-              <div className="nav-container-inner">
-                <div className="menu-name">
-                  <NavLink to={t("routes.resources")} onClick={handleClick}>
-                    {t("nav.resources_nav")}
-                  </NavLink>
+              <NavLink to={t("routes.resources")} onClick={handleClick}>
+                <div className="nav-container-inner">
+                  <div className="menu-name">{t("nav.resources_nav")}</div>
+                  <div className="icon">
+                    <span>
+                      <i className="fa-solid fa-chevron-right"></i>
+                    </span>
+                  </div>
                 </div>
-                <div className="icon">
-                  <span>
-                    <i className="fa-solid fa-chevron-right"></i>
-                  </span>
-                </div>
-              </div>
+              </NavLink>
             </div>
           </div>
         </div>
