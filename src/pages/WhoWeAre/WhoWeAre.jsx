@@ -31,6 +31,7 @@ function WhoWeAre() {
       <div className="our-team">
         <img src={team} alt="" />
         <h2>{t("about_us.our_team_title")}</h2>
+        <p>{t("about_us.our_team")}</p>
       </div>
     </div>
   );

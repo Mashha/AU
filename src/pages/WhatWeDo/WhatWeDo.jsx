@@ -30,7 +30,8 @@ function WhatWeDo() {
         </div>
         <div className="cube-para center">
           <h2>{t("what-we-do.cube_title")}</h2>
-          <p>{t("what-we-do.cube")}</p>
+          <p>{t("what-we-do.cube_one")}</p>
+          <p>{t("what-we-do.cube_two")}</p>
         </div>
       </div>
 
@@ -41,7 +42,8 @@ function WhatWeDo() {
         </div>
         <div className="activism-para center">
           <h2>{t("what-we-do.activism_title")}</h2>
-          <p>{t("what-we-do.activism")}</p>
+          <p>{t("what-we-do.activism_one")}</p>
+          <p>{t("what-we-do.activism_two")}</p>
         </div>
       </div>
 
