@@ -24,7 +24,7 @@ function Footer() {
 
         <div className="footer-rights">
          <p><i className="fa-solid fa-copyright"></i>
-          Anonymous of the unheard</p>
+          Anonymous for the unheard</p>
         </div>
       </div>
     </div>

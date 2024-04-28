@@ -15,11 +15,11 @@ function Home() {
             <Hero />
             <SectionOne />
             <SectionTwo />
-            <SectionThree />
+            {/* <SectionThree /> */}
             <SectionFour />
             <SectionFive />
             <SectionSix />
-            <SectionSeven />
+            {/* <SectionSeven /> */}
         </>
     )
 }

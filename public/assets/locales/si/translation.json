@@ -4,7 +4,7 @@
     "hero_span": "sočutje",
     "hero_p": "Pomagaj nam ustaviti zlorabo in trpljenje živali",
     "hero_btn_one": "Zakaj veganstvo?",
-    "hero_btn_two": "Doniranj"
+    "hero_btn_two": "Kontakt"
   },
   "routes": {
     "home": "domov",
@@ -42,6 +42,22 @@
     "mask_title": "Zakaj maska?",
     "mask_p1": "Z masko Anonymous se aktivisti poistovetijo z neštetimi živalmi, ki jih po nepotrebnem izkorišča in vsako leto zakolje svetovna industrija živalske hrane.",
     "mask_p2": "Maska simbolizira izkoreninjenje zatiranja, pomeni prizadevanje za resnico ter nasprotuje vsem oblikam nepravičnosti in diskriminacije, vključno s speciesizmom. Deluje kot prispodoba, kako je živalim v živinorejski industriji odvzeta individualnost, in poskuša preusmeriti pozornost ljudi od aktivistov, da bi se lahko namesto tega osredotočili na shod in izkušnje živali."
+  },
+  "section_one": {
+    "first_part": "Anonymous for the Unheard je prostovoljna skupina zelo sočutnih ljudi, ki mislijo in verjamejo, da si vsako živo bitje zasluži živeti in da mu nihče nima pravice življenja vzeti.",
+    "second_part": "Želimo vam pokazati resničnost ravnanja z živalmi in vas prijazno prosimo, da ne gledate stran, ampak jim odprete svoje srce."
+  },
+  "section_two": {
+    "mission_title": "Naša misija",
+    "mission_part": "Naše poslanstvo je spodbujanje sočutnega življenja brez krutosti, za vsa živa bitja. Delamo na ozaveščanju o pravicah živali, zagovarjamo etične in trajnostne odločitve ter spodbujamo spremembe v naših skupnostih.",
+    "values_title": "Naše vrednote",
+    "values_part": "Naše vrednote temeljijo na sočutju, spoštovanju in trajnosti. Verjamemo v prijazno ravnanje z vsemi živimi bitji."
+  },
+  "section_four_part": "Z izobraževanjem ozaveščamo o dogajanju v mesni, mlečni, jajčni in ribji industriji.",
+  "section_six": {
+    "join_us_part": "Pridruži se nam in s svojim glasom brani živali",
+    "go_veg_part": "Sočutje se začne na tvojem krožniku",
+    "go_veg_link": "https://izziv.si/"
   },
   "about_us": {
     "who": "Smo množično gibanje predanih in strastnih aktivistov, ki s pogovori in resničnimi posnetki z živinorejskih farm izobražujejo ljudi o posledicah uživanja živalskih izdelkov. S svojimi dejavnostmi v okviru neprofitne organizacije za pravice živali Anonymous for the Voiceless smo začeli leta 2018. Vendar smo se marca 2023 kolektivno odločili, da gremo svojo pot. Zdaj se imenujemo Anonymous for the Unheard (Anonimni za neslišane) in smo rastoča lokalna skupnost podobno mislečih ljudi, ki dajejo svoje glasove za pravičnost do naših sobitij na Zemlji.",
@@ -98,11 +114,11 @@
     "fishes_summary_sec": "Ribe lahko čutijo bolečino in stres, zato je pomembno upoštevati etične vidike ribiške industrije. Večina divjih rib, ulovljenih s komercialnim namenom, umre zaradi zadušitve na zraku ali zaradi kombinacije zadušitve in izpuljenja. Odstranjevanje rib iz vode je zanje zelo stresno; v večini primerov pride do nasilnih poskusov pobega. Ribe lahko zaradi zadušitve umrejo tudi po več kot eni uri, zato se ta vrsta smrti šteje za nehumano. Izpuljenje, tj. razkosanje ali razkosanje, se opravi brez predhodnega omamljanja, ki bi jim preprečilo, da bi čutile bolečino. Ribe pogosto položijo na led, ko se zadušijo, ali v ledeno vodo. Dokazano je, da je postopek ohlajanja za ribe izjemno stresen in poveča njihovo stisko. Ribe trpijo tudi na mnoge druge načine: ko jih iz globoke vode potegnejo na površje, pride do hitrih sprememb tlaka. Te spremembe povzročijo  barotravme, to so poškodbe zaradi spremembe zračnega ali hidrostatskega tlaka: med njimi so npr. odpoved organov, zasuk želodca, notranje krvavitve in izguba vida. Nekatere ribe med oz. neposredno po vlečenju na površje tudi umrejo, ker jih zdrobi ogromna teža njihovih vrstnikov.",
     "fishes_environment_one": "Človeško povpraševanje po ribah pustoši morja, saj je 90 odstotkov ribištva razvrščenega kot prelovljeno ali popolnoma izkoriščeno. Ključna težava ribiške industrije, od kjer prihaja 50 % rib za človeško potrošnjo,  je masovni izlov rib iz morij in rek. Ribiške flote uporabljajo različne metode: ena bolj znanih je, da z velikimi mrežami po dnu morja zajamejo vse, kar je v njihovi poti. To povzroča uničenje morskih habitatov in vodi do izumiranja mnogih ribjih in drugih morskih vrst. Ribiške metode, kot so palice, kavlji in trnki, povzročajo grozno trpljenje rib. ",
     "fishes_environment_two": "Znanstveniki poročajo, da je do 90 % vseh velikih rib, kot so trska, kirnja, tuna, mečarica, marlin, morski psi in morski list, izginilo iz svetovnih oceanov. Vsako leto je v ribiški industriji ubitih 38 milijonov ton prilova (nenamerno ulovljenih rib in morskega življenja, kot so ogrožene želve, morski psi in delfini). Osupljivih 40 % svetovnega ribolovnega ulova se zavrže. Študija, objavljena v reviji Science, je napovedala, da bi lahko do leta 2050 dočakali propad oceanskega ribištva, če se bo stopnja ribolova nadaljevala nespremenjena.",
-    "fishes_agriculture_one": "Druga polovica rib, namenjenih za prehrano ljudi, se goji v tako imenovanih ribogojnicah ali akvakulturah, ki obstajajo tako v sladkovodnem kot v morskem okolju.",
-    "fishes_agriculture_two": "V ribogojnicah se pogosto pojavljajo bolezni zaradi velikega števila živali, ki so tesno zaprte; ribe se gojijo v velikih mrežah, vendar je število rib v vsaki mreži tako veliko, da imajo komaj prostora za gibanje (podobno kot pri gojenju drugih živali na kopnem). Zato so bile pri večini vrst rib, ki se gojijo v ribogojnicah, ugotovljene številne parazitske bolezni. Zaradi tega ribogojci ribam pogosto dajejo antibiotike za zdravljenje izbruhov nalezljivih bolezni, kar lahko sčasoma privede do rasti bakterij, odpornih na antibiotike, v vodi v bližini ribogojnic.",
-    "fishes_agriculture_three": "Zaradi tesne zaprtosti in zmanjšanega kroženja vode se v vodi okoli ribogojnic sčasoma kopičijo dodatna hranila (tj. ribja hrana in odpadki); to vodi do cvetenja alg, ki zmanjšujejo raven kisika v okoliški vodi, zaradi česar so razmere, v katerih so ribe prisiljene živeti, še slabše.",
-    "fishes_agriculture_four": "Akvakulture lahko škodujejo tudi okoliškemu ekosistemu. Ponekod razvijalci rušijo mangrovske gozdove, da bi ustvarili prostor za dodatne ribogojnice ter akvakulture za kozice in druga morska bitja. Številne ribogojnice potrebujejo veliko energije za ogrevanje vode, kroženje vode ali razdeljevanje hrane, kar pogosto poganjajo fosilna goriva. Težava je tudi, da lahko ribe, ki pobegnejo iz mrež, postanejo invazivna vrsta in tekmujejo z avtohtonimi ribjimi populacijami, kar lahko ima nepredvidene posledice za lokalni ekosistem.",
-    "fishes_agriculture_five": "Pogosto lahko preberete, da so ribe bogat vir omega-3 maščobnih kislin, vendar so v njih tudi številne druge snovi, ki so škodljive za zdravje ljudi. Najbolj škodljive so nasičene maščobe, holesterol, poliklorirani bifenili (PCB), dioksini in živo srebro. Glede vpliva teh snovi na zdravje lahko pričakujemo bolezni srca in ožilja, nevrološke poškodbe, poškodbe jeter in kože, morebitno zmanjšanje mišičnega tonusa in refleksov pri dojenčkih, raka itd."
+    "fishes_aquaculture_one": "Druga polovica rib, namenjenih za prehrano ljudi, se goji v tako imenovanih ribogojnicah ali akvakulturah, ki obstajajo tako v sladkovodnem kot v morskem okolju.",
+    "fishes_aquaculture_two": "V ribogojnicah se pogosto pojavljajo bolezni zaradi velikega števila živali, ki so tesno zaprte; ribe se gojijo v velikih mrežah, vendar je število rib v vsaki mreži tako veliko, da imajo komaj prostora za gibanje (podobno kot pri gojenju drugih živali na kopnem). Zato so bile pri večini vrst rib, ki se gojijo v ribogojnicah, ugotovljene številne parazitske bolezni. Zaradi tega ribogojci ribam pogosto dajejo antibiotike za zdravljenje izbruhov nalezljivih bolezni, kar lahko sčasoma privede do rasti bakterij, odpornih na antibiotike, v vodi v bližini ribogojnic.",
+    "fishes_aquaculture_three": "Zaradi tesne zaprtosti in zmanjšanega kroženja vode se v vodi okoli ribogojnic sčasoma kopičijo dodatna hranila (tj. ribja hrana in odpadki); to vodi do cvetenja alg, ki zmanjšujejo raven kisika v okoliški vodi, zaradi česar so razmere, v katerih so ribe prisiljene živeti, še slabše.",
+    "fishes_aquaculture_four": "Akvakulture lahko škodujejo tudi okoliškemu ekosistemu. Ponekod razvijalci rušijo mangrovske gozdove, da bi ustvarili prostor za dodatne ribogojnice ter akvakulture za kozice in druga morska bitja. Številne ribogojnice potrebujejo veliko energije za ogrevanje vode, kroženje vode ali razdeljevanje hrane, kar pogosto poganjajo fosilna goriva. Težava je tudi, da lahko ribe, ki pobegnejo iz mrež, postanejo invazivna vrsta in tekmujejo z avtohtonimi ribjimi populacijami, kar lahko ima nepredvidene posledice za lokalni ekosistem.",
+    "fishes_aquaculture_five": "Pogosto lahko preberete, da so ribe bogat vir omega-3 maščobnih kislin, vendar so v njih tudi številne druge snovi, ki so škodljive za zdravje ljudi. Najbolj škodljive so nasičene maščobe, holesterol, poliklorirani bifenili (PCB), dioksini in živo srebro. Glede vpliva teh snovi na zdravje lahko pričakujemo bolezni srca in ožilja, nevrološke poškodbe, poškodbe jeter in kože, morebitno zmanjšanje mišičnega tonusa in refleksov pri dojenčkih, raka itd."
   },
   "dairy_industry": {
     "dairy_one": "Cilj skupine Anonymous for the Unheard je pomagati razkriti krutost do živali, ki se za zidovi mlečne industrije skriva nevidno očem javnosti. Vse življenje krave v mlečni industriji trpijo. S samico in njenimi potomci se kruto ravna, na koncu se njihova življenja končajo z zakolom. Z njimi se ravno kot z blagom, čeprav tudi oni so čuteča bitja. Tako kot ljudje, tudi krave proizvajajo mleko le takrat, ko imajo svoje potomce. Zato jih vsako leto človek umetno oplodi. Pasme rejnih krav so rezultat človekovega odbiranja in umetnega osemenjevanja prvotnih, prostoživečih krav, kar pomeni, da rejne oz. udomačene krave niso v svoji prvotni, naravni obliki, so odvisne od vnašanja energije in dela s strani človeka.",
@@ -122,9 +138,22 @@
     "earthlings": "Z uporabo skritih kamer in posnetkov, ki še nikoli niso bili prikazani, 'Zemljani' prikazuje vsakodnevne prakse največjih industrij na svetu, ki v celoti temeljijo na živalih za dobiček.",
     "dominion": "Film 'Dominion' uporablja dron, skrite in ročne kamere, da bi razkril temno plat sodobne živinoreje, hkrati pa postavlja pod vprašaj moralo in upravičenost človeške dominacije nad živalskim svetom.",
     "sanctuary_title": "Zatočišče za živali",
-    "sanctuary": "Živalski zavetišče je kraj, kjer so živalim, pogosto rešenim pred zanemarjanjem, zlorabo ali težkimi situacijami, zagotovljeno varno okolje za preživetje preostanka življenja."
+    "sanctuary": "Živalsko zatočišče je kraj, kjer je živalim, pogosto rešenim pred zanemarjanjem, zlorabo ali težkimi situacijami, zagotovljeno varno okolje za preživetje preostanka življenja."
+  },
+  "get_involved": {
+    "get_involved_title": "Pomagajmo živalicam",
+    "get_involved_how_title": "Kako lahko pomagam?",
+    "get_involved_how_text": "Najprej bi se radi zahvalili vsem za podporo, ki jo že dobivamo, skupaj ustvarjamo bolj sočuten svet do živali.",
+    "get_involved_donate_text": "Podprite nas pri tem, kar že počnemo in nam pomagajte zaščititi čim več živali.",
+    "get_involved_veg_part_one": "Sočutje se začne na vašem krožniku. Ne pozabite, da imate izbiro, živali pa ne.",
+    "get_involved_veg_part_two": "Jesti vegansko je najlažje.",
+    "join_us_help": "Pridružite se nam in postani glas za živali."
   },
   "join_button": "Pridruži se nam",
   "learn_more_btn": "Prikaži več",
-  "watch_now_btn": "Na ogled"
+  "watch_now_btn": "Na ogled",
+  "help_animals": "Želim pomagati živalim",
+  "go_veg": "Poskusi vegansko",
+  "watch_more_btn": "Poglej več",
+  "join_link": "https://docs.google.com/forms/d/e/1FAIpQLSfQlRnnPz06qrr-316pQa94KfcV0SKBOKUhqGIOEQACZAkkkA/viewform"
 }

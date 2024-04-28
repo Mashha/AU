@@ -4,7 +4,7 @@
     "hero_span": "compassion",
     "hero_p": "Help us put a stop to animal abuse and suffering",
     "hero_btn_one": "Why vegan?",
-    "hero_btn_two": "Donate"
+    "hero_btn_two": "Contact"
   },
   "routes": {
     "home": "",
@@ -42,6 +42,22 @@
     "mask_title": "Why the mask?",
     "mask_p1": "By donning the Anonymous mask, activists stand in solidarity with the countless animals needlessly exploited and slaughtered annually by the global animal food industries.",
     "mask_p2": "The mask symbolizes the eradication of oppression, signifies the pursuit of truth, and opposes all forms of injustice and discrimination, including speciesism. It acts as a metaphor of how animals are robbed of their individuality in the animal agriculture industry, and seeks to divert people's attention from the activists so they can focus on the demonstration and animals' experiences instead."
+  },
+  "section_one": {
+    "first_part": "Anonymous for the Unheard is a voluntary group of very compassionate people who think and believe every living being deserves to live and no one has the right to take life away from them.",
+    "second_part": "We want to show you the reality of how animals are treated and ask you kindly to not look the other way but to open your heart to them."
+  },
+  "section_two": {
+    "mission_title": "Our mission",
+    "mission_part": "Our mission is to promote a compassionate and cruelty-free lifestyle that respects all living beings. We work to raise awareness about animal rights, advocate for ethical and sustainable choices, and inspire change within our communities.",
+    "values_title": "Our values",
+    "values_part": "Our values are rooted in compassion, respect, and sustainability. We believe in treating all living beings with kindness."
+  },
+  "section_four_part": "Through education we raise awareness of what is going on in the meat, dairy, egg and fish industry.",
+  "section_six": {
+    "join_us_part": "Join us and use your voice to defend animals",
+    "go_veg_part": "Compassion begins on your plate",
+    "go_veg_link": "https://challenge22.com/"
   },
   "about_us": {
     "who": "We are a grassroot movement of committed and passionate activists who use conversation and real-life footage from animal farms to educate people about the implications of consuming animal products. We started with our activities under the non-profit animal rights organization Anonymous for the Voiceless back in 2018. However, in March 2023 we collectively decided to go our own way. Called Anonymous for the Unheard now, we are a growing local community of like-minded people using our voices for justice for our fellow earthlings.",
@@ -98,11 +114,11 @@
     "fishes_summary_sec": "Fishes are capable of feeling pain and stress, so it is important to consider the ethical aspects of the fishing industry. Most commercially-caught wild fishes die either from being left to suffocate in the air, or by a combination of suffocation and evisceration. Removing fishes from water is highly stressful to them; in most cases, violent escape attempts are made. It can take fishes over an hour to die by asphyxiation, so this type of death is considered inhumane. Evisceration i.e. disembowelment or gutting is done without prior stunning which would prevent them from feeling any pain. fishes are frequently put onto ice as they suffocate, or into iced water. The process of chilling has been shown to be extremely stressful to fishes, and it increases the severity of their distress. There are many other ways in which fishes suffer, too: when they are reeled to the surface from deep water, rapid pressure changes occur. These changes lead to barotrauma injuries such as prolapse, torsion i.e. twisting of the stomach, internal bleeding and loss of vision. As they are being pulled to the surface, some fishes also die by being crushed under the immense weight of their peers.",
     "fishes_environment_one": "Today, human demand for fishes is devastating the seas, with 90% of fisheries classified as overfished or fully exploited. One of the key problems in the fishing industry is the massive harvesting of fishes from seas and rivers, where roughly 50% of the fishes humans eat come from. Fishing fleets use a variety of methods, one of the more well-known being to drag large nets across the seabed to catch everything in their path. This causes the destruction of marine habitats and leads to the extinction of many fish species. Fishing methods, such as poles and hooks, cause terrible suffering to fishes.",
     "fishes_environment_two": "Scientists report that up to 90% of all large fishes such as cod, chub, tuna, swordfishes, marlin, sharks and sole have disappeared from the world's oceans. Every year, the fishing industry kills 38 million tonnes of by-catch (unintentionally caught fishes and marine life such as endangered turtles, sharks and dolphins). A staggering 40% of the world's fishing catch is thrown away. A study published in the journal Science predicted that if fishing rates continue unchanged, we could see the collapse of ocean fisheries by 2050.",
-    "fishes_agriculture_one": "The other half of fishes for human consumption are raised in so-called fish farms or aquacultures, which exist both in freshwater and marine environments.",
-    "fishes_agriculture_two": "Fish farms frequently harbor disease due to the number of animals kept in close confinement; fishes are kept in large nets, however the number of fishes in each net is so large that they have barely space to move around - similar to how other animals are being farmed on land. A host of parasitic diseases have therefore been identified in the majority of aquacultured fish species. As a consequence, aquaculturists often give fishes antibiotics to treat infectious outbreaks, which can eventually lead to the growth of antibiotic-resistant bacteria in the water near fish farms.",
-    "fishes_agriculture_three": "Due to this close confinement and reduced water circulation, the extra nutrients in the water around fish farms (i.e. fish food and waste) can build up over time; this leads to algal blooms that deplete oxygen levels in the surrounding water, which makes the conditions fishes are forced to live in even worse.",
-    "fishes_agriculture_four": "Aquacultures can also damage the surrounding ecosystem. In some places, developers are tearing down mangrove forests to make room for additional fish farms, shrimp farms and farms for other marine creatures. Many fish farms require a lot of energy input to heat the water, create circulation or dispense food, which is often powered by fossil fuels. Another problem is that when fishes escape from the nets, they can become an invasive species and compete with native fish populations, which can have unforeseen consequences for the local ecosystem.",
-    "fishes_agriculture_five": "You can often read that fishes are a rich source of omega-3 fatty acids, however they are also packaged with several other substances that are harmful to human health. The most harmful of these are saturated fat, cholesterol, polychlorinated biphenyls (PCBs), dioxins and mercury. In terms of the health impact of these substances, you can expect cardiovascular disease, neurological damage, liver and skin damage, potential decreased muscle tone and reflexes in infants, cancer and so forth."
+    "fishes_aquaculture_one": "The other half of fishes for human consumption are raised in so-called fish farms or aquacultures, which exist both in freshwater and marine environments.",
+    "fishes_aquaculture_two": "Fish farms frequently harbor disease due to the number of animals kept in close confinement; fishes are kept in large nets, however the number of fishes in each net is so large that they have barely space to move around - similar to how other animals are being farmed on land. A host of parasitic diseases have therefore been identified in the majority of aquacultured fish species. As a consequence, aquaculturists often give fishes antibiotics to treat infectious outbreaks, which can eventually lead to the growth of antibiotic-resistant bacteria in the water near fish farms.",
+    "fishes_aquaculture_three": "Due to this close confinement and reduced water circulation, the extra nutrients in the water around fish farms (i.e. fish food and waste) can build up over time; this leads to algal blooms that deplete oxygen levels in the surrounding water, which makes the conditions fishes are forced to live in even worse.",
+    "fishes_aquaculture_four": "Aquacultures can also damage the surrounding ecosystem. In some places, developers are tearing down mangrove forests to make room for additional fish farms, shrimp farms and farms for other marine creatures. Many fish farms require a lot of energy input to heat the water, create circulation or dispense food, which is often powered by fossil fuels. Another problem is that when fishes escape from the nets, they can become an invasive species and compete with native fish populations, which can have unforeseen consequences for the local ecosystem.",
+    "fishes_aquaculture_five": "You can often read that fishes are a rich source of omega-3 fatty acids, however they are also packaged with several other substances that are harmful to human health. The most harmful of these are saturated fat, cholesterol, polychlorinated biphenyls (PCBs), dioxins and mercury. In terms of the health impact of these substances, you can expect cardiovascular disease, neurological damage, liver and skin damage, potential decreased muscle tone and reflexes in infants, cancer and so forth."
   },
   "dairy_industry": {
     "dairy_one": "Anonymous for the Unheard aims to help expose the cruelty to animals that is hidden behind the walls of the dairy industry, invisible to the public eye. All their lives, cows suffer in the dairy industry. The female and her offspring are treated cruelly, and in the end their lives are ended by slaughter. They are treated as commodities, even though they too are sentient beings. Like humans, cows only produce milk when they have offspring. That is why they are artificially inseminated by man every year. Breeds of breeding cows are the result of man's weaning and artificial insemination of the original, wild cows, which means that breeding or domesticated cows are not in their original, natural form, but are dependent on the input of energy and labour from man.",
@@ -124,7 +140,20 @@
     "sanctuary_title": "Animal sanctuary",
     "sanctuary": "Animal sanctuary is a place where animals, often rescued from neglect, abuse, or difficult situations, are provided with a safe environment to live out their lives."
   },
+  "get_involved": {
+    "get_involved_title": "Let's help the animals",
+    "get_involved_how_title": "How can I help?",
+    "get_involved_how_text": "Firstly we would like to thank all of you for the support we are already getting, together we are creating a more compassionate world for the animals.",
+    "get_involved_donate_text": "Support us in what we are already doing and help us protect as many animals as possible.",
+    "get_involved_veg_part_one": "Compassion begins on your plate. Remember you have a choice, animals don't.",
+    "get_involved_veg_part_two": "Eating vegan is the easiest thing to do.",
+    "join_us_help": "Join us and become the voice for the animals."
+  },
   "join_button": "Join us",
   "learn_more_btn": "Learn more",
-  "watch_now_btn": "Watch now"
+  "watch_now_btn": "Watch now",
+  "help_animals": "I want to help animals",
+  "go_veg": "Go veg",
+  "watch_more_btn": "Watch more",
+  "join_link": "https://docs.google.com/forms/d/e/1FAIpQLSfQlRnnPz06qrr-316pQa94KfcV0SKBOKUhqGIOEQACZAkkkA/viewform"
 }

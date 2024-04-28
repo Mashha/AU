@@ -2,24 +2,24 @@ import React from "react";
 import "./getInvolved.css";
 import donateImg from "../../images/donate.jpg"
 import joinUs from "../../images/join-us.jpg"
+import { useTranslation } from "react-i18next";
 
 function GetInvolved() {
+  const { t } = useTranslation();
   return (
     <div className="get-ivolved">
       <div className="get-involved-hero">
         <div className="overlay">
           <div className="get-involved-inner">
-            <h1>Let's help the animals</h1>
+            <h1>{t("get_involved.get_involved_title")}</h1>
           </div>
         </div>
       </div>
 
       <div className="get-involved-how">
-        <h2>How can I help?</h2>
+        <h2>{t("get_involved.get_involved_how_title")}</h2>
         <p>
-          Firstly I would like to thank all of you for the support we are already
-          getting, together we are creating a more compassionate world for the
-          animals.
+        {t("get_involved.get_involved_how_text")}
         </p>
       </div>
 
@@ -29,10 +29,10 @@ function GetInvolved() {
           <div className="color-overlay"></div>
         </div>
         <div className="donate-para">
-          <p>Support us in what we are already doing and help us protect as many animals as possible.</p>
-          <button className="get-involved-btn">
+          <p>{t("get_involved.get_involved_donate_text")}</p>
+          {/* <button className="get-involved-btn">
             <a href="">Donate</a>
-          </button>
+          </button> */}
         </div>
       </div>
 
@@ -42,10 +42,10 @@ function GetInvolved() {
           <div className="color-overlay"></div>
         </div>
         <div className="veg-para">
-          <p>Compassion begins on your plate. Remember you have a choice, animals don't.</p>
-          <p>Eating vegan is the easiest thing to do.</p>
+          <p>{t("get_involved.get_involved_veg_part_one")}</p>
+          <p>{t("get_involved.get_involved_veg_part_two")}</p>
           <button className="get-involved-btn">
-            <a href="">Try veg</a>
+            <a href="">{t("go_veg")}</a>
           </button>
         </div>
       </div>
@@ -56,9 +56,9 @@ function GetInvolved() {
           <div className="color-overlay"></div>
         </div>
         <div className="join-para">
-          <p>Join us and become the voice for the animals.</p>
+          <p>{t("get_involved.join_us_help")}</p>
           <button className="get-involved-btn">
-            <a href="">Join us</a>
+            <a href="#">{t("join_button")}</a>
           </button>
         </div>
       </div>

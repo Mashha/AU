@@ -1,7 +1,9 @@
 import React from "react";
 import "./sectionTwo.css";
+import { useTranslation } from "react-i18next";
 
 function SectionTwo() {
+  const { t } = useTranslation();
   return (
     <>
       <div className="section-two grid">
@@ -11,11 +13,9 @@ function SectionTwo() {
           alt=""
         />
         <div className="mission center">
-          <h2>Our mission</h2>
+          <h2>{t("section_two.mission_title")}</h2>
           <p>
-            We strive to raise awareness, inspire change and, drive action to
-            create a world where non-human animals are treated as equals, with
-            compassion, respect, and dignity.
+          {t("section_two.mission_part")}
           </p>
         </div>
         <img
@@ -24,8 +24,8 @@ function SectionTwo() {
           alt=""
         />
         <div className="values center">
-          <h2>Our values</h2>
-          <p>Our core values are kindness, respect and compassion.</p>
+        <h2>{t("section_two.values_title")}</h2>
+          <p>{t("section_two.values_part")}</p>
         </div>
         <img
           className="second-img"

@@ -144,7 +144,7 @@ function Issues() {
         ></iframe>
 
         <button className="btn">
-          <a href="">Watch more</a>
+          <a href="https://www.youtube.com/@kinder-world/videos" target="_blank">{t("watch_more_btn")}</a>
         </button>
       </div>
     </div>

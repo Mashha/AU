@@ -1,16 +1,14 @@
 import React from "react";
 import "./sectionOne.css";
+import { useTranslation } from "react-i18next";
 
 function SectionOne() {
+  const { t } = useTranslation();
   return (
     <div className="section-one">
       <div className="center">
-        Anonymous for the Unheard is a voluntary group of very compassionate
-        people who think and believe every living being deserves to live and no
-        one has the right to take life away from them.
-        <br />
-        We want to show you the reality of how animals are treated and ask you
-        kindly to not look the other way but to open your heart to them.{" "}
+        <p>{t("section_one.first_part")}</p>
+        <p>{t("section_one.second_part")}</p>
         <i className="fa-solid fa-heart"></i>
       </div>
     </div>
