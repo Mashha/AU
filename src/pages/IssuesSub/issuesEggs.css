@@ -1,0 +1,16 @@
+.egg-industry-two,
+.egg-industry-three {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 750px) {
+  .egg-industry-two,
+  .egg-industry-three {
+    grid-template-columns: 1fr 1fr;
+  }
+  .egg-industry-three-img {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}

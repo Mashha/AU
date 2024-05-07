@@ -17,10 +17,35 @@
 .who-we-are,
 .our-team-values,
 .our-team {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   text-align: center;
   margin: 50px 0;
   gap: 15px;
   padding: 0 16px;
+}
+
+.our-team-values-image img,
+.our-team-img img {
+  width: 100%;
+  height: 100%;
+}
+.our-team-values-description, .our-team-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: left;
+}
+
+@media (min-width: 750px) {
+  .our-team-values,
+  .our-team {
+    grid-template-columns: 1fr 1fr;
+  }
+  .our-team-img {
+    grid-column: 2;
+    grid-row: 1;
+  }
 }

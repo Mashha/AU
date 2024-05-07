@@ -1,0 +1,26 @@
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 750px) {
+  .section {
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-pigs-img,
+  .section-lambs-img,
+  .section-environment-img {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}

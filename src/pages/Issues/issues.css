@@ -47,7 +47,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 5px;
+  padding: 20px;
 }
 
 .btn {
@@ -79,6 +81,9 @@
 
 .documentaries {
   text-align: center;
+}
+
+.documentaries-inner {
   margin: 50px 0;
   padding: 0 16px;
   display: grid;
@@ -100,4 +105,32 @@
 iframe {
   max-width: 100%;
   margin: 20px 0;
+}
+
+@media (min-width: 750px) {
+  .issues-meat,
+  .issues-dairy,
+  .issues-eggs,
+  .issues-fish,
+  .documentaries-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .issues-dairy img {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .issues-dairy-inner {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .issues-fish img {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .issues-fish-inner {
+    grid-column: 1;
+    grid-row: 1;
+  }
 }

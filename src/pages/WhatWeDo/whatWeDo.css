@@ -24,7 +24,7 @@
 }
 
 .street-activism,
-.education, 
+.education,
 .cube {
   display: grid;
   grid-template-columns: 1fr;
@@ -63,4 +63,16 @@
   background-color: var(--primary-color);
   color: white;
   letter-spacing: 0.5px;
+}
+
+@media (min-width: 750px) {
+  .cube,
+  .street-activism,
+  .education {
+    grid-template-columns: 1fr 1fr;
+  }
+  .activism-image {
+    grid-column: 2;
+    grid-row: 1;
+  }
 }

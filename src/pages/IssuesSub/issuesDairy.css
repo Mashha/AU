@@ -1,0 +1,22 @@
+.dairy-two,
+.dairy-three,
+.dairy-four,
+.dairy-five {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 750px) {
+  .dairy-two,
+  .dairy-three,
+  .dairy-four,
+  .dairy-five {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .dairy-three-img,
+  .dairy-five-img {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}

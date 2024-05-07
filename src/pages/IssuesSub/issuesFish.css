@@ -1,0 +1,22 @@
+.fish-two,
+.fish-three,
+.fish-four,
+.fish-five {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 750px) {
+  .fish-two,
+  .fish-three,
+  .fish-four,
+  .fish-five {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fish-three-img,
+  .fish-five-img {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
