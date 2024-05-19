@@ -1,7 +1,7 @@
 import React from "react";
-import "./whatWeDo.css";
-import mask from "../../images/mask.jpg";
-import street_activism_two from "../../images/street_activism2.jpg";
+import "./WhatWeDo/WhatWeDo.css";
+import mask from "../images/mask.jpg";
+import street_activism_two from "../images/street_activism2.jpg";
 import { useTranslation } from "react-i18next";
 
 function WhatWeDo() {

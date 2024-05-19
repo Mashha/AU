@@ -52,3 +52,10 @@
 .card p {
   font-weight: 300;
 }
+
+@media (min-width: 950px){
+.section-five {
+  padding: 0 16px;
+  grid-template-columns: repeat(3, 1fr);
+}
+}

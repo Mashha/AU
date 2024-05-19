@@ -1,7 +1,7 @@
 import React from "react";
-import "./whoWeAre.css";
-import values from "../../images/values.jpg";
-import team from "../../images/team.jpg";
+import "./WhoWeAre/whoWeAre.css";
+import values from "../images/values.jpg";
+import team from "../images/team.jpg";
 import { useTranslation } from "react-i18next";
 
 function WhoWeAre() {

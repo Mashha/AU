@@ -33,11 +33,7 @@
   background-color: var(--primary-color);
   border-radius: 5px;
   cursor: pointer;
-}
-
-.inner button a {
-  text-decoration: none;
-  color: white !important;
-  letter-spacing: 1px;
+  color: white;
   font-weight: 600;
+  letter-spacing: 1px;
 }

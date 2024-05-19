@@ -8,8 +8,8 @@
   },
   "routes": {
     "home": "",
-    "about_us": "kdo_smo",
-    "what_we_do": "naše_delo",
+    "about_us": "kdo-smo",
+    "what_we_do": "naše-delo",
     "issues": "veganstvo",
     "get_involved": "pomagaj",
     "resources": "viri",

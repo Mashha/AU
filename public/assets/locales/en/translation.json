@@ -8,10 +8,10 @@
   },
   "routes": {
     "home": "",
-    "about_us": "who_we_are",
-    "what_we_do": "what_we_do",
+    "about_us": "about-us",
+    "what_we_do": "what-we-do",
     "issues": "veganism",
-    "get_involved": "get_involved",
+    "get_involved": "get-involved",
     "resources": "resources",
     "issues_meat": "veganism/meat",
     "issues_dairy": "veganism/milk",

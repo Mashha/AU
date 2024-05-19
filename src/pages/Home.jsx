@@ -7,11 +7,14 @@ import SectionFive from '../components/SectionFive/SectionFive'
 import SectionSix from '../components/SectionSix/SectionSix'
 import SectionSeven from '../components/SectionSeven/SectionSeven'
 import Hero from '../components/Hero/Hero'
+import { useIntl } from 'react-intl';
 
 
 function Home() {
+    const { formatMessage } = useIntl();
     return (
         <>
+        <h1>{formatMessage({ id: 'home.title' })}</h1>
             <Hero />
             <SectionOne />
             <SectionTwo />

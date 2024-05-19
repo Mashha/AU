@@ -39,7 +39,6 @@
 .bg-color button {
   border: none;
   padding: 8px 20px;
-
   border-radius: 5px;
   background-color: var(--primary-color);
 }
@@ -49,4 +48,11 @@
   text-transform: uppercase;
   font-weight: 600;
   text-decoration: none;
+}
+
+@media (min-width: 750px) {
+  .section-six {
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
 }

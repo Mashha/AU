@@ -3,7 +3,6 @@ import "./header.css";
 import logo from "../../images/logo.png";
 import { NavLink, useNavigate } from "react-router-dom";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
-import i18next from "i18next";
 import cookie from "js-cookie";
 import { useTranslation } from "react-i18next";
 
