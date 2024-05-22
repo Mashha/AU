@@ -1,5 +1,5 @@
 //import React from "react";
-import ReactDOM from "react-dom/client";
+//import ReactDOM from "react-dom/client";
 import LanguageDetector from "i18next-browser-languagedetector";
 import HttpApi from "i18next-http-backend";
 //import App from "./App.jsx";
@@ -24,19 +24,26 @@ import { initReactI18next } from "react-i18next";
 //       loadPath: "/assets/locales/{{lng}}/translation.json",
 //     },
 //   });
-
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
+// import '@formatjs/intl-numberformat/polyfill';
+// import '@formatjs/intl-numberformat/locale-data/en';
+// import '@formatjs/intl-numberformat/locale-data/sl'; 
+// import '@formatjs/intl-datetimeformat/polyfill';
+// import '@formatjs/intl-datetimeformat/locale-data/en'; // Load locale data for English
+// import '@formatjs/intl-datetimeformat/locale-data/sl'; // Load locale data for Slovenian
 
-// Create a root.
-const container = document.getElementById('root');
-const root = createRoot(container);
+// import '@formatjs/intl-relativetimeformat/polyfill';
+// import '@formatjs/intl-relativetimeformat/locale-data/en'; // Load locale data for English
+// import '@formatjs/intl-relativetimeformat/locale-data/sl'; // Load locale data for Slovenian
 
-// Initial render
-root.render(
+
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
-

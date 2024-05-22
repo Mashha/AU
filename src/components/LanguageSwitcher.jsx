@@ -5,7 +5,7 @@ import { AppLanguage, appStrings } from '../intl';
 
 const LanguageSwitcher = () => {
   const { pathname } = useLocation();
-  const { locale, messages } = useIntl();
+  const { formatMessage, locale, messages } = useIntl();
   const { lang } = useParams();
 
   return (
@@ -16,10 +16,7 @@ const LanguageSwitcher = () => {
 
         return (
           <li key={language}>
-            <NavLink
-              to={matchingRoute}
-              isActive={() => lang === language}
-            >
+            <NavLink to={matchingRoute}>
               {language}
             </NavLink>
           </li>

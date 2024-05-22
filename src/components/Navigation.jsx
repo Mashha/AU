@@ -11,10 +11,7 @@ const Navigation = () => {
     <ul>
       {Object.keys(AppRoute).map((route) => (
         <li key={route}>
-          <NavLink
-            exact="true"
-            to={`/${lang}${formatMessage({ id: AppRoute[route] })}`}
-          >
+          <NavLink to={`/${lang}${formatMessage({ id: AppRoute[route] })}`}>
             {formatMessage({ id: AppRouteTitles.get(AppRoute[route]) })}
           </NavLink>
         </li>
@@ -24,4 +21,5 @@ const Navigation = () => {
 };
 
 export default Navigation;
+
 

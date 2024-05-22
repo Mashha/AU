@@ -12,6 +12,9 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@formatjs/intl-datetimeformat": "^6.12.5",
+    "@formatjs/intl-numberformat": "^8.10.3",
+    "@formatjs/intl-relativetimeformat": "^11.2.14",
     "flag-icons": "^6.11.0",
     "i18next": "^23.5.1",
     "i18next-browser-languagedetector": "^7.1.0",
